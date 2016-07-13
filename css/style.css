@@ -12,6 +12,8 @@ nav {
  	border-color: #101010; 
 	min-height: 54px;
 	font-size: 17px;
+	position: relative;
+	z-index: 100;
 }
 nav img{
 	float: left;
@@ -136,13 +138,82 @@ text-decoration: none;
     border: none; 
     background: #fff url('../img/sprite.png') -26px -8px no-repeat;
    }
+ .clearfix:after {	/*Зачистка границ*/
+ 	content: '';
+ 	clear: both;
+ 	display: block;
+ }
 /* ==================== END NAVIGATION========================== */
 
 /* ==================== MAIN==================================== */
-.backgroundImageHand {
-	height: 700px;
-	background: url('../img/background--pc--female.jpg') 0 0 no-repeat;
-	position: absolute;
+section {
+	position: relative;
 }
-
+.dropbox__backgroundImageHand {
+	height: 700px;
+	background: #f7f7f7 url('../img/background--pc--female.jpg') 0 0 no-repeat;
+	z-index: 10;
+	width: 1200px;
+    position: absolute;
+    left: 73%;
+    margin-left: -770px;
+    background-position: right center;
+	
+/*	position: absolute;
+	width: 1019px;
+	right: 0; */
+}
+.dropbox__container {
+	position: absolute;
+	z-index: 20;
+	margin-left: 0;
+    margin-right: 0;
+    font-family: Segoe UI, Tahoma, sans-serif;
+    text-align: left;
+}
+.dropbox__container h1{
+	margin-bottom: 20px;
+	font-weight: 100;
+	font-size: 31px;
+    max-width: 350px;
+    color: #455159
+ }
+ .dropbox__container h2{
+	font-size: 16px;
+    max-width: 330px;
+    font-weight: 100;
+    text-align: left;
+ }
+.dropbox__container input {
+    min-width: 0;
+    min-height: 0;
+    margin: 0;
+    padding: 19px 26px;
+    font-size: 17px;
+    line-height: 17px;
+    background: #0071e0;
+    color: #fff;
+    display: block;
+    text-align: center;
+    border: none;
+    border-radius: 6px;
+    font-weight: normal;
+    display: block;
+}
+.dropbox__container span {
+	display: block;
+	margin-top: 15px;
+    font-size: 16px;
+    color: #47525d;
+    text-align: left;
+    margin-bottom: 0;
+}
+.dropbox__container a {
+    border-bottom: 1px solid #0071e0;
+    color: #0071e0;
+    text-decoration: none;
+}
+.dropbox__container a:hover {
+color: #3398ea;
+}
 /* =================END MAIN==================================== */
