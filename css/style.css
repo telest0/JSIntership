@@ -149,14 +149,22 @@ text-decoration: none;
 section {
 	position: relative;
 }
+.dropbox:after {
+content: ".";
+display: block;
+height: 0;
+clear: both;
+visibility: hidden;
+}
+
 .dropbox__backgroundImageHand {
 	height: 700px;
 	background: #f7f7f7 url('../img/background--pc--female.jpg') 0 0 no-repeat;
 	z-index: 10;
 	width: 1200px;
-    position: absolute;
+/*  position: absolute; */
     left: 73%;
-    margin-left: -770px;
+    margin-left: -700px;
     background-position: right center;
 	
 /*	position: absolute;
@@ -164,6 +172,7 @@ section {
 	right: 0; */
 }
 .dropbox__container {
+	padding: 125px 20px;
 	position: absolute;
 	z-index: 20;
 	margin-left: 0;
@@ -184,7 +193,7 @@ section {
     font-weight: 100;
     text-align: left;
  }
-.dropbox__container input {
+.dropbox__button {
     min-width: 0;
     min-height: 0;
     margin: 0;
@@ -199,6 +208,11 @@ section {
     border-radius: 6px;
     font-weight: normal;
     display: block;
+    text-decoration: none;
+}
+.dropbox__button:hover {
+	background: #3398ea;
+	color: #fff;
 }
 .dropbox__container span {
 	display: block;
@@ -208,12 +222,18 @@ section {
     text-align: left;
     margin-bottom: 0;
 }
-.dropbox__container a {
+.dropbox__link {
     border-bottom: 1px solid #0071e0;
     color: #0071e0;
     text-decoration: none;
 }
-.dropbox__container a:hover {
-color: #3398ea;
+.dropbox__link:hover {
+	color: #3398ea;
+}
+.invision {
+	background: #323a45;
+	text-align: center;
+    padding: 160px 0 145px;
+    display: block;
 }
 /* =================END MAIN==================================== */
