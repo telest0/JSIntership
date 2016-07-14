@@ -122,17 +122,16 @@ text-decoration: none;
 	padding: 0;
 }
 
-   input[type="search"] {
+.menu__input {
     border: none;
     outline: none;
-    -webkit-appearance: none; 
     width: 260px;
     vertical-align: middle;
     padding: 1px 35px 1px 15px;
     font-size: 16px;
     color: black; 
    }
-   input[type="submit"] {
+ .menu__search {
     width: 30px; 
     height: 25px; 
     border: none; 
@@ -163,8 +162,7 @@ visibility: hidden;
 	z-index: 10;
 	width: 1200px;
 /*  position: absolute; */
-    left: 73%;
-    margin-left: -700px;
+    margin-left: 0;
     background-position: right center;
 	
 /*	position: absolute;
@@ -233,7 +231,82 @@ visibility: hidden;
 .invision {
 	background: #323a45;
 	text-align: center;
-    padding: 160px 0 145px;
+    padding: 160px 20px 145px 20px;
     display: block;
+}
+.invision h1 {
+	margin: auto;
+	color: white;
+	font-weight: 300;
+	font-size: 30px;
+    max-width: 1024px;
+    text-align: center;
+}
+
+.invision__container {
+	margin: 60px 5px 0 0;
+	display: inline-block;
+	background: white;
+/*	border: none; */
+	border-radius: 6px;
+	position: relative;
+	height: 57px;
+	width: 250px;
+}
+.icon {
+	height: 24px;
+	width: 24px;
+	position: absolute;
+    top: 18px;
+    left: 15px;
+}
+.User {
+	background-image: url(../img/sprite-invision.png);
+	background-repeat: no-repeat; 
+	background-position: 0 -475px;
+}
+.Email {
+	background-image: url(../img/sprite-invision.png); 
+	background-repeat: no-repeat; 
+	background-position: 0 -389px;
+}
+.Password {
+	background-image: url(../img/sprite-invision.png); 
+	background-repeat: no-repeat; 
+	background-position: 0 -430px;
+}
+.invision input {
+	padding: 18px 0 18px 50px;
+	border: none;
+	border-radius: 6px;
+	font-size: 17px;
+}
+.invision input:focus { 
+	outline: none; 
+}
+.invision button {
+	padding: 0 20px;
+    font-size: 15px;
+    background: #ff3366;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 6px;
+    font-weight: 700;
+    height: 60px;
+	width: 280px;
+}
+.invision p {    
+    margin-top: 30px;
+    font-size: 12px;
+    line-height: 1.8em;
+    color: #747c83;
+}
+.invision a {
+    color: #747c83;
+    text-decoration: underline;
+}
+.invision a:hover {
+    color: #fff;
 }
 /* =================END MAIN==================================== */
