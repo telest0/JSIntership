@@ -1,4 +1,5 @@
-﻿body {
+﻿/* v.1.0 Writing by Salohub Oleh admiit2010@gmail.com +380937948442 */
+body {
 	font-family: Segoe UI, Tahoma, sans-serif;
 	
 }
@@ -308,5 +309,72 @@ visibility: hidden;
 }
 .invision a:hover {
     color: #fff;
+}
+.oculus__image {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    opacity: .3;
+    text-align: center;
+    transition: transform .3s, opacity .3s;
+}
+.leftImg {
+	background-image: url(../img/oculus-eve-valkyrie.jpg);
+    overflow: hidden;
+}
+.centerImg {
+	background-image: url(../img/oculus-luckys-tale.jpg);
+}
+.rightImg {
+	background-image: url(../img/oculus-stage-image.jpg);
+}
+.oculus__image:hover {
+	opacity: .8;
+    transform: scale(1.1, 1.1);
+}
+.oculus__list {
+	padding: 0;
+	margin: 0;
+	height: 300px;
+	width: 100%;
+	list-style: none;
+	background: #282828;
+}
+.oculus__list li {
+	float: left;
+	width: 33.33333%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+.oculus__list a {
+	width: 100%;
+	text-decoration: none;
+}
+.oculus__text {
+	padding: 0 32px 0 32px;
+	color: black;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	transform: translate(0, -50%);
+    width: 100%;
+}
+.oculus__text h4 {
+    margin: 0;
+	color: #a4a5a6;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    line-height: 16px;
+    text-align: center;
+}
+.oculus__text h3 {
+	margin: 0;
+	color: white;
+	font-size: 22px;
+    font-weight: 600;
+    line-height: 28px;
 }
 /* =================END MAIN==================================== */
