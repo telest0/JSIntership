@@ -1,4 +1,4 @@
-﻿/* v.1.0 Writing by Salohub Oleh admiit2010@gmail.com +380937948442 */
+﻿/* v.1.0 Developted by Salohub Oleh admiit2010@gmail.com +380937948442 */
 body {
 	font-family: Segoe UI, Tahoma, sans-serif;
 	
@@ -35,7 +35,7 @@ nav img{
 	list-style: none;
 }
 .menu__item--dropdown {
-	width: 210px;
+	width: 250px;
 	list-style: none;
 }
 .menu__link, .menu__link--consist {
@@ -50,7 +50,7 @@ nav img{
 	padding:  0 0;
 	top: 100%;
 	height: 500px;
-	width: 210px;
+	width: 250px;
 	position: absolute;
 	background-color: #f7f7f7;
 	color: black;
@@ -70,10 +70,10 @@ nav img{
 }
 .menu--dropdown--level2 {
 	top: 0;
-	left: 210px;
+	left: 250px;
     margin: 0;
     padding: 0;
-    height: 500px;
+    height: 570px;
     position: absolute;
     width: 290px;
     background-color: #e5e5e5;
@@ -106,6 +106,7 @@ text-decoration: none;
 	line-height: 4em;
 	font-size: 13px;
 	text-decoration: none;
+	color: black;
 }
 .shopingCard a:hover {
 	background-color: #f7f7f7;
@@ -117,11 +118,9 @@ text-decoration: none;
 	width: 300px;
 	border: 1px solid #848484; 
     min-height: 20px;
+    color: black;
 }
-.searchMicrosoft input {
-	margin: 0;
-	padding: 0;
-}
+
 
 .menu__input {
     border: none;
@@ -171,7 +170,7 @@ visibility: hidden;
 	right: 0; */
 }
 .dropbox__container {
-	padding: 125px 20px;
+	padding: 225px 20px;
 	position: absolute;
 	z-index: 20;
 	margin-left: 0;
@@ -296,6 +295,10 @@ visibility: hidden;
     font-weight: 700;
     height: 60px;
 	width: 280px;
+	cursor: pointer;
+}
+.invision button:hover {
+	background: #f42156;
 }
 .invision p {    
     margin-top: 30px;
