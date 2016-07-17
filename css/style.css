@@ -383,6 +383,7 @@ visibility: hidden;
 	padding-top: 20px;
 	width: 1200px;
 	color: #666666;
+	font-size: 12px;
 }
 .apple__container {
 	float: left;
@@ -424,12 +425,15 @@ visibility: hidden;
  	text-decoration: underline;
  }
 .apple__copyrightlegal div {
-	float: left;
 	margin-bottom: 30px;
 }
 .apple__copyright {
+	float: left;
 	margin-right: 30px;
 	color: #999;
+}
+.apple__legal {
+	float: left;
 }
 .apple__legal a {
 	margin-right: 10px;
@@ -449,11 +453,31 @@ visibility: hidden;
  	text-decoration: underline;
 }
 .apple__country {
-
+	float: right;
 }
 .apple__copyrightlegal:after {  				/* Clear floats */
 	content: '';
  	clear: both;
  	display: block;	
 } 
+.apple__usaimg {
+	background-image: url(../img/apple_usa.png);
+	background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    padding-right: 5px;
+    background-position: left center;
+    cursor: pointer;
+    float: left;
+    margin-top: 1px;
+}
+.apple__country a {
+	text-decoration: none;
+	color: #666666;
+	font-size: 1em;
+}
+.apple__country a:hover {
+	text-decoration: underline;
+	color: black;
+}
 /* =================END FOOTER===================================*/
