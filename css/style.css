@@ -5,13 +5,13 @@ body {
 /* ====================NAVIGATION========================== */
 
 @media (min-width: 1200px) {
-.title {
+.wrapper {
 	margin: 0 auto;
 	width: 1200px;
 	}	
 }
 @media (max-width: 1199px) {
-.title {
+.wrapper {
 	margin: 0 auto;
 	width: 768px;
 	}
