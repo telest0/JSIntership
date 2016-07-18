@@ -1,14 +1,10 @@
 ﻿/* v.1.2 Developted by Salohub Oleh admiit2010@gmail.com +380937948442 */
 body {
 	font-family: Segoe UI, Tahoma, sans-serif;
-	
 }
-/* @media (min-width: 1200px) {} */
-
 /* ====================NAVIGATION========================== */
 
 @media (min-width: 1200px) {
-
 .title {
 	margin: 0 auto;
 	width: 1200px;
@@ -18,7 +14,7 @@ body {
 .title {
 	margin: 0 auto;
 	width: 768px;
-}
+	}
 }
 nav {
 	background-color: #fff;
@@ -148,7 +144,7 @@ text-decoration: none;
     border: none; 
     background: #fff url('../img/sprite.png') -26px -8px no-repeat;
    }
- .clearfix:after {	/*Зачистка границ*/
+ .clearfix:after {	/*Clear floats*/
  	content: '';
  	clear: both;
  	display: block;
@@ -172,13 +168,8 @@ visibility: hidden;
 	background: #f7f7f7 url('../img/background--pc--female.jpg') 0 0 no-repeat;
 	z-index: 10;
 	width: 100%;
-/*  position: absolute; */
     margin-left: 0;
     background-position: right center;
-	
-/*	position: absolute;
-	width: 1019px;
-	right: 0; */
 }
 .dropbox__container {
 	padding: 225px 30px;
@@ -253,7 +244,6 @@ visibility: hidden;
     max-width: 1024px;
     text-align: center;
 }
-
 .invision__container {
 	margin: 60px 5px 0 0;
 	display: inline-block;
